@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.sergioledezma.pruebapuglins"
+    version   = "1.0.0">
+
+<name>Agenda curso</name>
+
+<description>
+Agenda con fotos
+</description>
+
+<author href="https://www.sergioledezmavazquez.com" email="sergio.rafael.ledezma.vazquez@gmail.com">
+Sergio Ledezma
+</author>
+
+<gap:plugin name="org.apache.cordova.device"/>
+<gap:plugin name="org.apache.cordova.dialogs" />
+<gap:plugin name="org.apache.cordova.contacts" version="0.2.9" />
+<gap:plugin name="org.apache.cordova.camera"/>
+
+
+<preference name="phonegap-version" value="3.3.0" />
+</widget>
